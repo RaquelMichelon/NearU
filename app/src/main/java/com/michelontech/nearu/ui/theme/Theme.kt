@@ -1,4 +1,4 @@
-package com.rocketseat.nlw.nearby.ui.theme
+package com.michelontech.nearu.ui.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
@@ -33,7 +33,7 @@ private val DarkColors = darkColorScheme(
 )
 
 @Composable
-fun NearbyTheme(
+fun NearUTheme(
     darkTheme: Boolean = false,
     content: @Composable () -> Unit
 ) {
