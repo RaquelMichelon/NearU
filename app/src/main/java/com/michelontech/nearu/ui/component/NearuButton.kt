@@ -14,7 +14,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -60,7 +59,7 @@ fun NearuButton(modifier: Modifier = Modifier,
 private fun NearuButtonPreview() {
     //fillMaxWidth preenche o comprimento de tela
     NearuButton(modifier = Modifier.fillMaxWidth(),
-        text = "Confirmar",
+        text = "Confirm",
         iconRes = R.drawable.ic_scan) {
 
     }
@@ -72,7 +71,7 @@ private fun NearuButtonPreview() {
 private fun NearuButtonNoIconPreview() {
     //fillMaxWidth preenche o comprimento de tela
     NearuButton(modifier = Modifier.fillMaxWidth(),
-        text = "Confirmar") {
+        text = "Confirm") {
 
     }
 }
